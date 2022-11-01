@@ -16,6 +16,7 @@ public class Triangle extends Shape {
     }
 
     private double calculateHeightLength() {
-        return (Math.sqrt(3.0) * this.sideLength) / 2.0;
+        return (Math.sqrt(3.0)
+                * this.sideLength) / 2.0;
     }
 }
